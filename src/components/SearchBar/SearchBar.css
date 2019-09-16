@@ -1,0 +1,63 @@
+.SearchBar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.88rem;
+}
+
+.Input {
+  width: 21rem;
+  padding: .66rem 1rem;
+  margin-right: 2.22rem;
+  border: 1px solid #5353ea;
+  border-radius: 4px;
+  font-size: .90rem;
+  font-weight: 500;
+}
+
+.Button {
+  text-align: center;
+}
+
+.Button a {
+  border-radius: 4px;
+  padding: .60rem 1.7rem;
+  background-color: #5353ea;
+  color: #ffffff;
+  font-weight: 600;
+  transition: background-color .5s;
+}
+
+.Button a:hover {
+  cursor: pointer;
+  background-color: #0359bd;
+}
+
+.SortBy ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.22rem;
+  color: #ffffff;
+  list-style-type: none;
+}
+
+.SortBy li {
+  cursor: pointer;
+  width: 4.33rem;
+  border-bottom: 1px solid #fff;
+  padding: 0 2.58rem .33rem 2.58rem;
+  line-height: 1.13;
+  text-align: center;
+  font-weight: 600;
+  font-size: .83rem;
+  transition: color .25s;
+}
+
+.SortBy li:hover {
+  color: #d4cfcf;
+}
+
+.SortBy li.active,
+.SortBy li.active:hover {
+  border-bottom: 1px solid #f0c36c;
+  color: #f0c36c;
+}

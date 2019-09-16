@@ -1,0 +1,17 @@
+.Book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40rem;
+  margin: 0 .5rem 2.3rem .5rem;
+}
+
+.Book img {
+  height: 16.66rem;
+  width: 16.66rem;
+  margin-bottom: 1rem;
+}
+
+.Info {
+  text-align: center;
+}
